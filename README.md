@@ -39,7 +39,7 @@ LibriSpeech ASR
 
 Split:
 
-test.clean
+test
 
 ---
 
