@@ -1,0 +1,15 @@
+2026-07-01 21:03:00 | INFO     | Loading model: facebook/wav2vec2-base-960h
+2026-07-01 21:03:00 | INFO     | Using device: cpu
+2026-07-01 21:03:04 | INFO     | Model loaded successfully.
+2026-07-01 21:03:04 | INFO     | Loading dataset: librispeech_asr (test)
+2026-07-01 21:03:18 | INFO     | Dataset contains 2620 samples.
+2026-07-01 21:03:18 | INFO     | Selected 20 evaluation samples.
+2026-07-01 21:03:18 | INFO     | Starting inference on 20 samples.
+2026-07-01 21:03:33 | INFO     | Inference completed.
+2026-07-01 21:03:33 | INFO     | Average latency: 0.3032 sec
+2026-07-01 21:03:33 | INFO     | Predictions saved to results/predictions.csv
+2026-07-01 21:03:33 | INFO     | Computing WER and CER...
+2026-07-01 21:03:33 | INFO     | WER : 0.0449
+2026-07-01 21:03:33 | INFO     | CER : 0.0126
+2026-07-01 21:03:33 | INFO     | Metrics saved to results/metrics.json
+2026-07-01 21:03:33 | INFO     | Report saved to results/report.md
