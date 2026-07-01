@@ -191,17 +191,18 @@ pipeline.log
 
 ```json
 {
+    "timestamp": "2026-07-01T21:03:33.106012",
     "model": "facebook/wav2vec2-base-960h",
-    "dataset": "librispeech_asr (test.clean)",
+    "dataset": "librispeech_asr (test)",
     "num_samples": 20,
     "successful_samples": 20,
     "failed_samples": 0,
-    "word_error_rate": 0.0712,
-    "character_error_rate": 0.0315,
-    "average_latency_seconds": 0.82,
-    "minimum_latency_seconds": 0.74,
-    "maximum_latency_seconds": 1.01,
-    "total_inference_time_seconds": 16.4
+    "word_error_rate": 0.0449,
+    "character_error_rate": 0.0126,
+    "average_latency_seconds": 0.3032,
+    "minimum_latency_seconds": 0.0787,
+    "maximum_latency_seconds": 0.9453,
+    "total_inference_time_seconds": 6.0633
 }
 ```
 
